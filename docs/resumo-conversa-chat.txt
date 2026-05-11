@@ -1,0 +1,42 @@
+Site Portfolio v2 - Resumo conversa Chat
+
+Stacks
+
+Base
+  React
+  Vite
+  Tailwind
+UI
+  shadcn/ui
+  Lucide
+Motion
+  Framer Motion
+Router
+  React Router
+
+Proximos passos
+
+conceito visual
+layout
+Hero
+design system
+seções
+animações
+identidade do portfólio
+
+Estilo visual
+
+minimalista moderno
+leve inspiração oceano/noite
+visual clean
+toque esportivo/tecnológico
+
+MENOS:
+
+hacker
+neon exagerado
+sci-fi extremo
+
+MAIS:
+
+produto moderno real
