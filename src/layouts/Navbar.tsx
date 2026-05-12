@@ -22,12 +22,12 @@ export function Navbar () {
             Sobre
           </Link>
 
-          <a
-            href='#'
+          <Link
+            to='/projetos'
             className='text-sm font-medium text-muted-foreground/80 transition hover:text-foreground'
           >
             Projetos
-          </a>
+          </Link>
 
           <a
             href='#'
