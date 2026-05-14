@@ -29,12 +29,12 @@ export function Navbar () {
             Projetos
           </Link>
 
-          <a
-            href='#'
+          <Link
+            to='/contato'
             className='text-sm font-medium text-muted-foreground/80 transition hover:text-foreground'
           >
             Contato
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

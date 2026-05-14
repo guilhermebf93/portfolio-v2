@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 
 import { ArrowRight } from 'lucide-react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export function Hero () {
   return (
@@ -30,14 +31,21 @@ export function Hero () {
           </div>
 
           <div className="flex flex-wrap items-center gap-4">
-            <button className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-medium text-primary-foreground transition hover:opacity-90">
+            <Link
+              to='/projetos'
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-medium text-primary-foreground transition hover:opacity-90"
+            >
               Ver projetos
               <ArrowRight size={18} />
-            </button>
+            </Link>
 
-            <button className="rounded-full border border-border px-6 py-3 font-medium transition hover:bg-muted">
+            <Link
+              to='/contato' 
+              className="rounded-full border border-border px-6 py-3 font-medium transition hover:bg-muted"
+            >
               Contato
-            </button>
+            </Link>
+
           </div>
         </motion.div>
 
@@ -59,14 +67,14 @@ export function Hero () {
 
           <div className="mt-8 flex items-center justify-center gap-4">
             <a
-              href="#"
+              href="https://github.com/guilhermebf93"
               className="rounded-full border border-white/10 bg-white/2 p-4 text-muted-foreground transition hover:border-white/20 hover:bg-white/2 hover:text-foreground"
             >
               <FaGithub size={28} />
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/guiferreira93/"
               className="rounded-full border border-white/10 bg-white/2 p-4 text-muted-foreground transition hover:border-white/20 hover:bg-white/2 hover:text-foreground"
             >
               <FaLinkedin size={28} />

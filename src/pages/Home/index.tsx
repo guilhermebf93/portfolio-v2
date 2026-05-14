@@ -1,5 +1,5 @@
 import { Container } from '@/components/ui/container'
-import { Hero } from '@/sections/Hero'
+import { Hero } from '@/pages/Home/sections/Hero'
 
 export function Home () {
 

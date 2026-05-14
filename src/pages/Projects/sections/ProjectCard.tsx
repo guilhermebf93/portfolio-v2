@@ -45,8 +45,8 @@ export function ProjectCard({
         </div>
 
         <div className='flex items-center justify-center gap-5 border-t pt-5 text-sm font-medium'>
-          <a href={project.github} className='text-muted-foreground transition-colors hover:text-foreground'>Github</a>
-          <a href={project.demo} className='text-muted-foreground transition-colors hover:text-foreground'>Demo</a>
+          <a target='_blank' href={project.github} className='text-muted-foreground transition-colors hover:text-foreground'>Github</a>
+          <a target='_blank' href={project.demo} className='text-muted-foreground transition-colors hover:text-foreground'>Demo</a>
         </div>
       </div>
     </article>
