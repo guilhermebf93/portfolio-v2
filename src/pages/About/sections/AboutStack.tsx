@@ -54,7 +54,7 @@ const stacks = [
 
 export function AboutStack() {
   return(
-    <section className='relative overflow-hidden border-t border-border/40 py-32'>
+    <section className='relative overflow-hidden border-t border-border/40 py-24 md:py-32'>
       <div className='absolute inset-0 pointer-events-none'>
         <div className='absolute bottom-15 left-1/3 h-100 w-100 rounded-full bg-blue-500/5 blur-3xl' />
       </div>
@@ -69,7 +69,7 @@ export function AboutStack() {
           </FadeIn>
         </div>
 
-        <div className='grid gap-x-12 gap-y-20 md:grid-cols-2'>
+        <div className='grid gap-x-12 gap-y-12 md:gap-y-20 md:grid-cols-2'>
           {stacks.map((stack, index) => (
             <FadeIn delay={index * 0.1 + 0.1}>
               <div

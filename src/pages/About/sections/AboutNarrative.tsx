@@ -3,7 +3,7 @@ import { FadeIn } from '@/components/motion/FadeIn'
 
 export function AboutNarrative() {
   return(
-    <section className='relative py-40'>
+    <section className='relative py-24 md:py-32'>
       <div className='mx-auto grid max-w-7xl grid-cols-1 gap-16 px-6 md:grid-cols-12'>
 
         <div className='relative md:col-span-3'>
@@ -16,7 +16,7 @@ export function AboutNarrative() {
         
 
         <div className='md:col-span-9'>          
-          <div className='space-y-8'>
+          <div className='space-y-5 md:space-y-8'>
             <FadeIn delay={0.1}>
               <p className='text-3xl leading-[1.15] tracking-tight text-foreground md:text-4xl'>
                 Meu foco é desenvolver aplicações modernas que combinem

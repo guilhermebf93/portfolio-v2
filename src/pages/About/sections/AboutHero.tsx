@@ -10,7 +10,7 @@ export function AboutHero () {
         <div className='absolute right-0 top-1/3 h-75 w-75 rounded-full bg-cyan-400/20 blur-3xl' />
       </div>
 
-      <div className='mx-auto flex min-h-screen max-w-7xl items-center px-6 py-40'>
+      <div className='mx-auto flex min-h-screen max-w-7xl items-center px-6 py-24 md:py-32'>
         <div className='max-w-5xl'>
           <FadeIn>
             <SectionLabel>

@@ -14,7 +14,7 @@ export function Navbar () {
           </span>
         </Link>
 
-        <nav className='hidden items-center gap-8 md:flex'>
+        <nav className='flex items-center gap-8'>
           <Link
             to='/sobre'
             className='text-sm font-medium text-muted-foreground/80 transition hover:text-foreground'

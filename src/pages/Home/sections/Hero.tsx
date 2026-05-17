@@ -6,22 +6,22 @@ import { Link } from 'react-router-dom'
 
 export function Hero () {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden pt-16">
+    <section className="relative flex min-h-dvh items-center overflow-hidden pt-24 pb-12">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.12),transparent_45%)]" />
 
-      <div className="grid w-full items-center gap-20 lg:grid-cols-2">
+      <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-20">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className='space-y-8'
         >
-          <div className="inline-flex items-center rounded-full border border-border bg-muted/40 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur">
+          <div className="inline-flex items-center rounded-full border border-border bg-muted/40 px-4 py-1.5 mt-4 text-sm text-muted-foreground backdrop-blur">
             Full Stack Developer • React • Node.js
           </div>
 
-          <div className="space-y-6">
-            <h1 className="max-w-2xl font-heading text-5xl font-bold leading-tight tracking-tight-[-0.04em] md:text-6xl">
+          <div className="space-y-4 md:space-y-6">
+            <h1 className="max-w-2xl font-heading text-[2.7rem] font-bold leading-tight tracking-[-0.04em] md:text-6xl sm:text-5xl">
               Transformando ideias em aplicações modernas, funcionais e visualmente bem construídas.
             </h1>
 
@@ -53,7 +53,7 @@ export function Hero () {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative hidden lg:flex lg:flex-col lg:items-center lg:justify-center"
+          className="relative flex flex-col items-center justify-center mb-8 lg:justify-end"
         >
           <div className="absolute h-80 w-80 rounded-full bg-blue-500/15 blur-[120px]" />
 

@@ -3,7 +3,7 @@ import { FadeIn } from '@/components/motion/FadeIn'
 
 export function AboutPersonal() {
   return(
-    <section className='relative overflow-hidden py-40'>
+    <section className='relative overflow-hidden py-24 md:py-32'>
       <div className='absolute inset-0 pointer-events-none'>
         <div className='absolute bottom-0 right-0 h-125 w-125 rounded-full bg-cyan-500/5 blur-3xl' />
       </div>
@@ -16,7 +16,7 @@ export function AboutPersonal() {
           </SectionLabel>
         </FadeIn>
 
-        <div className='space-y-8'>
+        <div className='space-y-5 md:space-y-8'>
           <FadeIn delay={0.1}>
             <p className='text-4xl font-semibold leading-[1.1] tracking-tight md:text-5xl'>
               Tecnologia, design, música e cultura visual influenciam 
