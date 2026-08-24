@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/check-km",
+      "destination": "https://check-km.vercel.app/"
+    },
+    {
+      "source": "/check-km/:match",
+      "destination": "https://check-km.vercel.app/:match"
+    },
+    {
+      "source": "/dev-playground",
+      "destination": "https://dev-playground.vercel.app/"
+    },
+    {
+      "source": "/dev-playground/:match",
+      "destination": "https://dev-playground.vercel.app/:match"
+    }
+  ]
+}

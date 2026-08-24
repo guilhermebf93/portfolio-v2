@@ -19,7 +19,7 @@ export const projects: Project[] = [
       'zod'
     ],
     github: 'https://github.com/guilhermebf93/check-km',
-    demo: '',
+    demo: 'https://guiferreira.dev/check-km',
     highlights: [
       'Autenticação com Google e proteção de rotas',
       'Gerenciamento completo de veículos e quilometragem',
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       'SCSS'
     ],
     github: 'https://github.com/guilhermebf93/dev-playground',
-    demo: '',
+    demo: 'https://guiferreira.dev/dev-playground',
     highlights: [
       'Coleção de projetos independentes em uma única plataforma',
       'Identidade visual consistente entre os experimentos',
