@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/check-km",
-      "destination": "https://check-km.vercel.app/"
+      "destination": "https://check-km.vercel.app/check-km/"
     },
     {
       "source": "/check-km/:match",
-      "destination": "https://check-km.vercel.app/:match"
+      "destination": "https://check-km.vercel.app/check-km/:match"
     },
     {
       "source": "/dev-playground",
