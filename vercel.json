@@ -10,11 +10,11 @@
     },
     {
       "source": "/dev-playground",
-      "destination": "https://dev-playground.vercel.app/"
+      "destination": "https://dev-playground-olive.vercel.app/"
     },
     {
       "source": "/dev-playground/:match",
-      "destination": "https://dev-playground.vercel.app/:match"
+      "destination": "https://dev-playground-olive.vercel.app/:match"
     }
   ]
 }
